@@ -9,7 +9,7 @@
     <relativePath>../jbundle/jbundle-parent</relativePath>
   </parent>
 
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <groupId>org.jbundle.util.osgi.wrapped</groupId>
   <artifactId>jbundle-util-osgi-wrapped-reactor</artifactId>
 
