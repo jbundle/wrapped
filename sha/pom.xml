@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.jbundle.util.osgi.wrapped</groupId>
+    <artifactId>jbundle-util-osgi-wrapped-reactor</artifactId>
+    <version>1.0.0</version>
+  </parent>
+
+  <artifactId>org.jbundle.util.osgi.wrapped.uk.org.pajhome.crypt.sha1</artifactId>
+  <version>2.2.0</version>
+
+  <name>jbundle-util-osgi-wrapped-uk-org-pajhome-crypt-sha1</name>
+  <packaging>bundle</packaging>
+
+  <licenses>
+    <license>
+      <name>BSD License</name>
+      <url>http://www.opensource.org/licenses/bsd-license.php</url>
+      <distribution>repo</distribution>
+      <comments>This bundle is a copy of the sha1 library bundled as an osgi artifact</comments>
+    </license>
+  </licenses>
+
+  <url>http://pajhome.org.uk/crypt/md5/sha1.js</url>
+
+  <organization>
+  	<name>pajhome.org.uk</name>
+  	<url>http://www.pajhome.org.uk</url>
+  </organization>
+
+  <developers>
+  	<developer>
+  		<name>Paul Johnston</name>
+  		<url>http://pajhome.org.uk</url>
+  	</developer>
+  </developers>
+
+</project>
