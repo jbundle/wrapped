@@ -16,6 +16,12 @@
   <packaging>pom</packaging>
   <name>jbundle-util-osgi-wrapped-reactor - OSGi wrapped bundles</name>
 
+  <scm>
+    <url>https://github.com/jbundle/jbundle-wrapped</url>
+    <connection>scm:git:git://github.com/jbundle/jbundle-wrapped.git</connection>
+    <developerConnection>scm:git:git@github.com:jbundle/jbundle-wrapped.git</developerConnection>
+  </scm>
+
   <modules>
     <module>c3p0</module>
   </modules>
