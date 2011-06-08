@@ -23,7 +23,7 @@
   </scm>
 
   <modules>
-    <module>sha1</module>
+    <module>sha</module>
   </modules>
   
 </project>
