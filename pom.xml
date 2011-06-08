@@ -24,7 +24,7 @@
 
   <modules>
     <!-- module>c3p0</module -->
-    <!-- module>sha</module -->
+    <module>sha</module>
   </modules>
   
 </project>
