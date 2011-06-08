@@ -23,7 +23,8 @@
   </scm>
 
   <modules>
-    <module>sha</module>
+    <!-- module>c3p0</module -->
+    <!-- module>sha</module -->
   </modules>
   
 </project>
