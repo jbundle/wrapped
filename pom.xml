@@ -10,7 +10,7 @@
   </parent>
 
   <version>1.0.0-SNAPSHOT</version>
-  <groupId>org.jbundle.osgi.util.wrapped</groupId>
+  <groupId>org.jbundle.util.osgi.wrapped</groupId>
   <artifactId>jbundle-util-osgi-wrapped-reactor</artifactId>
 
   <packaging>pom</packaging>
