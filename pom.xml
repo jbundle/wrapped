@@ -25,6 +25,8 @@
   <modules>
     <module>c3p0</module>
     <module>sha</module>
+    <module>servlets</module>
+    <module>httpclient</module>
   </modules>
   
 </project>
