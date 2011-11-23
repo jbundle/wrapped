@@ -38,14 +38,15 @@
           <instructions>
             <Bundle-ManifestVersion>2</Bundle-ManifestVersion>
             <Bundle-SymbolicName>${project.groupId}.${project.artifactId}</Bundle-SymbolicName>
-            <Export-Package>org.apache.catalina.servlets.*;version=${project.version}</Export-Package>
+            <Export-Package>org.apache.*;version=${project.version}</Export-Package>
+            <!-- Export-Package>org.apache.catalina.servlets.*;version=${project.version}</Export-Package>
             <Private-Package>
 org.apache.catalina,
 org.apache.catalina.util,
 org.apache.naming.resources,
 org.apache.tomcat.util.http,
 org.apache.tomcat.util.res,
-            </Private-Package>
+            </Private-Package -->
             <Import-Package>
 	    *;resolution:=optional
 	    </Import-Package>
