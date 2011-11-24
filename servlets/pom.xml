@@ -37,7 +37,7 @@
         <configuration>
           <instructions>
             <Bundle-ManifestVersion>2</Bundle-ManifestVersion>
-            <Bundle-SymbolicName>${project.groupId}.${project.artifactId}</Bundle-SymbolicName>
+            <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
             <Export-Package>org.apache.*;version=${project.version}</Export-Package>
             <!-- Export-Package>org.apache.catalina.servlets.*;version=${project.version}</Export-Package>
             <Private-Package>
