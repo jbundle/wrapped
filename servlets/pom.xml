@@ -38,7 +38,11 @@
           <instructions>
             <Bundle-ManifestVersion>2</Bundle-ManifestVersion>
             <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
-            <Export-Package>org.apache.*;version=${project.version}</Export-Package>
+            <Export-Package>
+            org.apache.catalina.*;version=${project.version},
+            org.apache.naming.*;version=${project.version},
+            org.apache.tomcat.util.*;version=${project.version}
+            </Export-Package>
             <!-- Export-Package>org.apache.catalina.servlets.*;version=${project.version}</Export-Package>
             <Private-Package>
 org.apache.catalina,
@@ -62,6 +66,10 @@ org.apache.tomcat.util.res,
     <artifactId>tomcat-catalina</artifactId>
     <version>${project.version}</version>
   </dependency>
-</dependencies>
+  <dependency>
+    <groupId>org.apache.tomcat</groupId>
+    <artifactId>tomcat-coyote</artifactId>
+    <version>${project.version}</version>
+  </dependency></dependencies>
 
 </project>

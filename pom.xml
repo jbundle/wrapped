@@ -27,6 +27,7 @@
     <module>sha</module>
     <module>servlets</module>
     <module>httpclient</module>
+    <module>jnlpservlet</module>
   </modules>
   
 </project>
