@@ -54,6 +54,7 @@ This bundle is a copy of jnlp-servlet code included in the jdk at sample/jnlp/se
 		<groupId>org.codehaus.mojo.webstart</groupId> <!-- Hopefully this will become available from java.net -->
 		<artifactId>webstart-jnlp-servlet</artifactId>
 		<version>${project.version}</version>
+		<scope>provided</scope>   <!-- Since I repackage the code, I don't need this module -->
 	</dependency>
   </dependencies>
 

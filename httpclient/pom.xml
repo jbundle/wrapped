@@ -54,6 +54,7 @@
     <groupId>org.apache.httpcomponents</groupId>
     <artifactId>httpclient</artifactId>
     <version>${project.version}</version>
+    <scope>provided</scope>   <!-- Since I repackage the code, I don't need this module -->
   </dependency>
 </dependencies>
 

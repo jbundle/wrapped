@@ -65,11 +65,13 @@ org.apache.tomcat.util.res,
     <groupId>org.apache.tomcat</groupId>
     <artifactId>tomcat-catalina</artifactId>
     <version>${project.version}</version>
+    <scope>provided</scope>   <!-- Since I repackage the code, I don't need this module -->
   </dependency>
   <dependency>
     <groupId>org.apache.tomcat</groupId>
     <artifactId>tomcat-coyote</artifactId>
     <version>${project.version}</version>
+    <scope>provided</scope>   <!-- Since I repackage the code, I don't need this module -->
   </dependency></dependencies>
 
 </project>
