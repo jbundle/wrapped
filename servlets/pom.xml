@@ -12,7 +12,7 @@
   <artifactId>org.jbundle.util.osgi.wrapped.org.apache.catalina.servlets</artifactId>
   <version>7.0.22</version>
 
-  <name>jbundle-util-osgi-wrapped-servlets - apache catalina servlets wrapped osgi</name>
+  <name>jbundle-util-osgi-wrapped-servlets - catalina servlets</name>
   <packaging>bundle</packaging>
   
   <licenses>
