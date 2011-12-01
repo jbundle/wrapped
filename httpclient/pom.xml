@@ -12,7 +12,7 @@
   <artifactId>org.jbundle.util.osgi.wrapped.org.apache.http.client</artifactId>
   <version>4.1.2</version>
 
-  <name>jbundle-util-osgi-wrapped-httpclient - apache httpclient wrapped osgi</name>
+  <name>jbundle-util-osgi-wrapped-httpclient - httpclient osgi</name>
   <packaging>bundle</packaging>
   
   <licenses>

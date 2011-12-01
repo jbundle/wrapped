@@ -14,7 +14,7 @@
 
   <packaging>bundle</packaging>
 
-  <name>org.jbundle.util.osgi.wrapped.jnlp.sample - OSGi Jnlp servlet</name>
+  <name>jbundle-util-osgi-wrapped-jnlp-sample - OSGi Jnlp servlet</name>
   <description>Jnlp servlet</description>
 
   <licenses>
