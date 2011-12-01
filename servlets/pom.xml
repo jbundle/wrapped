@@ -6,11 +6,11 @@
   <parent>
     <groupId>org.jbundle.util.osgi.wrapped</groupId>
     <artifactId>jbundle-util-osgi-wrapped-reactor</artifactId>
-    <version>1.0.4</version>
+    <version>1.0.5-SNAPSHOT</version>
   </parent>
 
   <artifactId>org.jbundle.util.osgi.wrapped.org.apache.catalina.servlets</artifactId>
-  <version>7.0.23</version>
+  <version>7.0.24-SNAPSHOT</version>
 
   <name>jbundle-util-osgi-wrapped-servlets - catalina servlets</name>
   <packaging>bundle</packaging>
