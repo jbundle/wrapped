@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.jbundle.util.osgi.wrapped</groupId>
     <artifactId>jbundle-util-osgi-wrapped-reactor</artifactId>
-    <version>1.0.4-SNAPSHOT</version>
+    <version>1.0.4</version>
   </parent>
 
   <artifactId>org.jbundle.util.osgi.wrapped.jnlp.sample</artifactId>

@@ -5,11 +5,11 @@
   <parent>
     <artifactId>jbundle-parent</artifactId>
     <groupId>org.jbundle.config</groupId>
-    <version>1.1.2-SNAPSHOT</version>
+    <version>1.1.2</version>
     <relativePath>../jbundle/jbundle-parent</relativePath>
   </parent>
 
-  <version>1.0.4-SNAPSHOT</version>
+  <version>1.0.4</version>
   <groupId>org.jbundle.util.osgi.wrapped</groupId>
   <artifactId>jbundle-util-osgi-wrapped-reactor</artifactId>
 
