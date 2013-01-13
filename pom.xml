@@ -21,9 +21,9 @@
   </properties>
 
   <scm>
-    <url>https://github.com/jbundle/jbundle-wrapped</url>
-    <connection>scm:git:git://github.com/jbundle/jbundle-wrapped.git</connection>
-    <developerConnection>scm:git:git@github.com:jbundle/jbundle-wrapped.git</developerConnection>
+    <url>https://github.com/jbundle/wrapped</url>
+    <connection>scm:git:git://github.com/jbundle/wrapped</connection>
+    <developerConnection>scm:git:git@github.com:jbundle/wrapped</developerConnection>
   </scm>
 
   <modules>
