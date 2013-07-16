@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>org.jbundle.util.osgi.wrapped.org.apache.catalina.servlets</artifactId>
-  <version>7.0.24-SNAPSHOT</version>
+  <version>${tomcat-catalina-version}</version>
 
   <name>jbundle-util-osgi-wrapped-servlets - catalina servlets</name>
   <packaging>bundle</packaging>
@@ -64,13 +64,13 @@ org.apache.tomcat.util.res,
   <dependency>
     <groupId>org.apache.tomcat</groupId>
     <artifactId>tomcat-catalina</artifactId>
-    <version>${project.version}</version>
+    <version>${tomcat-catalina-version}</version>
     <scope>provided</scope>   <!-- Since I repackage the code, I don't need this module -->
   </dependency>
   <dependency>
     <groupId>org.apache.tomcat</groupId>
     <artifactId>tomcat-coyote</artifactId>
-    <version>${project.version}</version>
+    <version>${tomcat-catalina-version}</version>
     <scope>provided</scope>   <!-- Since I repackage the code, I don't need this module -->
   </dependency></dependencies>
 
