@@ -52,7 +52,7 @@
 <dependencies>
     <dependency>
     <groupId>org.apache.httpcomponents</groupId>
-    <artifactId>httpclient</artifactId>
+    <artifactId>httpclient</artifactId> <!-- Note: httpclient-osgi is now available -->
     <version>${httpclient-version}</version>
     <scope>provided</scope>   <!-- Since I repackage the code, I don't need this module -->
   </dependency>
