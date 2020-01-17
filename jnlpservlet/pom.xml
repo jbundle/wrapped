@@ -1,6 +1,10 @@
 <?xml version="1.0"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
+  <!-- Note: You must have jnlp-servlet in your repo for this to work. Do this:
+       git clone https://github.com/mojohaus/webstart.git
+       cd webstart/ -->
+
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
@@ -51,11 +55,13 @@ This bundle is a copy of jnlp-servlet code included in the jdk at sample/jnlp/se
 
   <dependencies>
 	<dependency>
-		<groupId>org.codehaus.mojo.webstart</groupId> <!-- Hopefully this will become available from java.net -->
-		<artifactId>webstart-jnlp-servlet</artifactId>
-		<version>${project.version}</version>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>webstart-jnlp-servlet</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
+		<!-- groupId>org.codehaus.mojo.webstart</groupId --> <!-- Hopefully this will become available from java.net -->
+		<!-- artifactId>webstart-jnlp-servlet</artifactId -->
+		<!-- version>${project.version}</version -->
 		<scope>provided</scope>   <!-- Since I repackage the code, I don't need this module -->
 	</dependency>
   </dependencies>
-
 </project>
