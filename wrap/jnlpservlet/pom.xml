@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <version>1.0.6-SNAPSHOT</version>
+        <groupId>org.jbundle.util.osgi.wrapped</groupId>
+        <artifactId>jbundle-util-osgi-wrap-reactor</artifactId>
+    </parent>
+
+    <!-- groupId>com.mchange</groupId -->
+    <artifactId>webstart-jnlp-servlet</artifactId>
+    <version>${jnlp-servlet-version}</version>
+    <packaging>bundle</packaging>
+
+    <properties>
+        <artifactGroup>org.codehaus.mojo</artifactGroup>
+    </properties>
+
+    <name>${project.artifactId} OSGi Bundle</name>
+    <description>This OSGi bundle simply wraps ${project.artifactId}-${project.version}.jar artifact.</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>${artifactGroup}</groupId>
+            <artifactId>${project.artifactId}</artifactId>
+            <version>${project.version}</version>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
+
+    <!-- build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <extensions>true</extensions>
+                <configuration>
+                    <instructions>
+                        <Bundle-ManifestVersion>2</Bundle-ManifestVersion>
+                        <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
+                        <Export-Package>jnlp.sample.*;version=${project.version}</Export-Package>
+                        <Import-Package>*;resolution:=optional</Import-Package>
+                    </instructions>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build -->
+
+    <licenses>
+        <license>
+            <name>Oracle Binary Code License Agreement for the Java SE Platform Products and JavaFX</name>
+            <url>http://java.com/license</url>
+            <comments>Copyright (c) 2006, 2010, Oracle and/or its affiliates. All rights reserved.
+                This bundle is a copy of jnlp-servlet code included in the jdk at sample/jnlp/servlet</comments>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>Oracle Corporation</name>
+        <url>http://oracle.com/</url>
+    </organization>
+
+</project>

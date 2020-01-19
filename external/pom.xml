@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <version>1.0.6-SNAPSHOT</version>
+    <groupId>org.jbundle.util.osgi.wrapped</groupId>
+    <artifactId>jbundle-util-osgi-wrapped-reactor</artifactId>
+  </parent>
+
+  <artifactId>jbundle-util-osgi-external-reactor</artifactId>
+
+  <packaging>pom</packaging>
+  <name>jbundle-util-osgi-external-reactor - OSGi wrapped bundles</name>
+
+  <properties>
+    <projectName>jbundle-external</projectName>
+    <bundleUrl>mvn:${artifactGroup}/${project.artifactId}/${project.version}</bundleUrl>
+  </properties>
+
+  <modules>
+    <module>mysql-connector-java</module>
+    <module>base64coder</module>
+    <module>json</module>
+    <module>derby</module>
+    <module>jakarta.xml.soap-api</module>
+    <module>saaj-impl</module>
+    <module>commons-collections</module>
+    <module>jakarta.activation</module>
+    <module>jakarta.activation-api</module>
+    <module>jakarta.xml.bind-api</module>
+    <module>stax-ex</module>
+    <module>httpclient-osgi</module>
+    <module>mimepull</module>
+    <module>mail</module>
+  </modules>
+  
+</project>

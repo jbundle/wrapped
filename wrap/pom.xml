@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <version>1.0.6-SNAPSHOT</version>
+    <groupId>org.jbundle.util.osgi.wrapped</groupId>
+    <artifactId>jbundle-util-osgi-wrapped-reactor</artifactId>
+  </parent>
+
+  <artifactId>jbundle-util-osgi-wrap-reactor</artifactId>
+
+  <packaging>pom</packaging>
+  <name>jbundle-util-osgi-wrap-reactor - OSGi wrapped bundles</name>
+
+  <properties>
+    <projectName>jbundle-util-osgi-wrapped</projectName>
+  </properties>
+
+  <modules>
+    <module>c3p0</module>
+    <!-- module>servlets</module -->
+    <!--module>httpclient</module-->  <!-- osgi version available -->
+    <module>jnlpservlet</module>
+  </modules>
+  
+</project>

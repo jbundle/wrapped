@@ -4,13 +4,12 @@
 
   <parent>
     <groupId>org.jbundle.util.osgi.wrapped</groupId>
-    <artifactId>jbundle-util-osgi-wrapped-reactor</artifactId>
+    <artifactId>jbundle-util-osgi-repackaged-reactor</artifactId>
     <version>1.0.6-SNAPSHOT</version>
   </parent>
 
   <artifactId>org.jbundle.util.osgi.wrapped.uk.org.pajhome.crypt.sha1</artifactId>
-  <version>1.0.5-SNAPSHOT</version>
-  
+
   <properties>
     <jbundle-package-export>${jbundle-package-filter};version=${project.version},
     			org.jbundle.res.docs.styles.js.pajhome.*;version=${project.version}</jbundle-package-export>

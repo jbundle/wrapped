@@ -72,6 +72,7 @@ org.apache.tomcat.util.res,
     <artifactId>tomcat-coyote</artifactId>
     <version>${tomcat-catalina-version}</version>
     <scope>provided</scope>   <!-- Since I repackage the code, I don't need this module -->
-  </dependency></dependencies>
+  </dependency>
+</dependencies>
 
 </project>

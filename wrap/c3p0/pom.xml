@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <version>1.0.6-SNAPSHOT</version>
+        <groupId>org.jbundle.util.osgi.wrapped</groupId>
+        <artifactId>jbundle-util-osgi-wrap-reactor</artifactId>
+    </parent>
+
+    <!-- groupId>com.mchange</groupId -->
+    <artifactId>c3p0</artifactId>
+    <version>${c3p0-version}</version>
+    <packaging>bundle</packaging>
+
+    <properties>
+        <artifactGroup>com.mchange</artifactGroup>
+    </properties>
+
+    <name>${project.artifactId} OSGi Bundle</name>
+    <description>This OSGi bundle simply wraps ${project.artifactId}-${project.version}.jar artifact.</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>${artifactGroup}</groupId>
+            <artifactId>${project.artifactId}</artifactId>
+            <version>${project.version}</version>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <extensions>true</extensions>
+                <configuration>
+                    <instructions>
+                        <Bundle-ManifestVersion>2</Bundle-ManifestVersion>
+                        <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
+                        <Export-Package>*;version=${project.version}</Export-Package>
+                        <Import-Package>
+                            !javax.*,
+                            !org.w3c.dom.*,
+                            *;resolution:=optional
+                        </Import-Package>
+                    </instructions>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <licenses>
+        <license>
+            <name>GNU Library or Lesser General Public License (LGPL)</name>
+            <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>
+            <comments>This bundle is a copy of c3p0 with osgi manifests added</comments>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>c3p0 by mchange.com</name>
+        <url>http://www.mchange.com/projects/c3p0/index.html</url>
+    </organization>
+
+</project>
