@@ -4,14 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <version>1.0.6</version>
+        <version>1.0.7-SNAPSHOT</version>
         <groupId>org.jbundle.util.osgi.wrapped</groupId>
         <artifactId>jbundle-util-osgi-wrap-reactor</artifactId>
     </parent>
 
     <!-- groupId>com.mchange</groupId -->
     <artifactId>webstart-jnlp-servlet</artifactId>
-    <version>1.0-beta-7</version>
+    <version>1.0-beta-8-SNAPSHOT</version>
     <packaging>bundle</packaging>
 
     <properties>

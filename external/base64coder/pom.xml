@@ -4,14 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <version>1.0.6</version>
+        <version>1.0.7-SNAPSHOT</version>
         <groupId>org.jbundle.util.osgi.wrapped</groupId>
         <artifactId>jbundle-util-osgi-external-reactor</artifactId>
     </parent>
 
     <!-- groupId>org.json</groupId -->
     <artifactId>base64coder</artifactId>
-    <version>2010-12-19</version>
+    <version>2010-13-19-SNAPSHOT</version>
     <packaging>bundle</packaging>
 
     <properties>
