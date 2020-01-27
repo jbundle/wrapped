@@ -11,7 +11,7 @@
 
     <!-- groupId>org.json</groupId -->
     <artifactId>derby</artifactId>
-    <version>10.14.2.1-SNAPSHOT</version>
+    <version>${derby-version}</version>
     <packaging>bundle</packaging>
 
     <properties>

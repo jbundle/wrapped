@@ -11,7 +11,7 @@
 
     <!-- groupId>org.json</groupId -->
     <artifactId>stax-ex</artifactId>
-    <version>1.8.2-SNAPSHOT</version>
+    <version>${stax-impl-version}</version>
     <packaging>bundle</packaging>
 
     <properties>
