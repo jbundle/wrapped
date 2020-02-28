@@ -33,6 +33,8 @@
     <module>httpclient-osgi</module>
     <module>mimepull</module>
     <module>mail</module>
+    <module>mongo-java-driver</module>
+    <module>bson</module>
   </modules>
   
 </project>
