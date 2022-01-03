@@ -15,6 +15,7 @@
 
   <properties>
     <projectName>jbundle-util-osgi-wrapped</projectName>
+    <bundleUrl>mvn:${project.groupId}/${project.artifactId}/${project.version}</bundleUrl>
   </properties>
 
   <build>

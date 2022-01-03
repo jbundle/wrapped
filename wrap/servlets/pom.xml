@@ -14,7 +14,11 @@
 
   <name>jbundle-util-osgi-wrapped-servlets - catalina servlets</name>
   <packaging>bundle</packaging>
-  
+
+  <properties>
+    <bundleUrl>mvn:${project.groupId}/${project.artifactId}/${project.version}</bundleUrl>
+  </properties>
+
   <licenses>
     <license>
       <name>Apache License, Version 2.0</name>

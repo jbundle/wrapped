@@ -19,7 +19,7 @@
   <properties>
     <projectName>jbundle-util-osgi-wrapped</projectName>
     <artifactGroup>true</artifactGroup> <!-- Skips unjar by default - set to the resource group to enable -->
-    <bundleUrl>wrap:mvn:${artifactGroup}/${project.artifactId}/${project.version}</bundleUrl>
+    <bundleUrl>wrap:mvn:${artifactGroup}/${project.artifactId}/${project.version}</bundleUrl> <!-- Note: Remember to set this back if skip unjar -->
   </properties>
 
   <scm>
