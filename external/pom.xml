@@ -19,10 +19,10 @@
   </properties>
 
   <modules>
-    <module>mysql-connector-java</module>
+    <module>mysql-connector-j</module>
     <module>base64coder</module>
     <module>json</module>
-    <module>derby</module>
+    <module>derby</module> <!-- Embedded Derby -->
     <module>jakarta.xml.soap-api</module>
     <module>saaj-impl</module>
     <module>commons-collections</module>
