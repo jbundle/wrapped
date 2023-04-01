@@ -4,14 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <version>1.0.7-SNAPSHOT</version>
+        <version>1.0.7</version>
         <groupId>org.jbundle.util.osgi.wrapped</groupId>
         <artifactId>jbundle-util-osgi-external-reactor</artifactId>
     </parent>
 
     <!-- groupId>org.json</groupId -->
     <artifactId>mail</artifactId>
-    <version>${mail-version}</version>
+    <version>1.4.4</version>
     <packaging>bundle</packaging>
 
     <properties>

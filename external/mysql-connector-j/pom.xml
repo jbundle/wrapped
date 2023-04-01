@@ -4,14 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <version>1.0.7-SNAPSHOT</version>
+        <version>1.0.7</version>
         <groupId>org.jbundle.util.osgi.wrapped</groupId>
         <artifactId>jbundle-util-osgi-external-reactor</artifactId>
     </parent>
 
     <!-- groupId>org.json</groupId -->
     <artifactId>mysql-connector-j</artifactId>
-    <version>${mysql-connector-j-version}</version>
+    <version>8.0.32</version>
     <packaging>bundle</packaging>
 
     <properties>

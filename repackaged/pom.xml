@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <version>1.0.7-SNAPSHOT</version>
+    <version>1.0.7</version>
     <groupId>org.jbundle.util.osgi.wrapped</groupId>
     <artifactId>jbundle-util-osgi-wrapped-reactor</artifactId>
   </parent>

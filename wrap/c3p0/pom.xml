@@ -4,14 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <version>1.0.7-SNAPSHOT</version>
+        <version>1.0.7</version>
         <groupId>org.jbundle.util.osgi.wrapped</groupId>
         <artifactId>jbundle-util-osgi-wrap-reactor</artifactId>
     </parent>
 
     <!-- groupId>com.mchange</groupId -->
     <artifactId>c3p0</artifactId>
-    <version>${c3p0-version}</version>
+    <version>0.9.5.5</version>
     <packaging>bundle</packaging>
 
     <properties>

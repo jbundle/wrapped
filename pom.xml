@@ -9,7 +9,7 @@
     <relativePath>../jbundle/jbundle-parent</relativePath>
   </parent>
 
-  <version>1.0.7-SNAPSHOT</version>
+  <version>1.0.7</version>
   <groupId>org.jbundle.util.osgi.wrapped</groupId>
   <artifactId>jbundle-util-osgi-wrapped-reactor</artifactId>
 
@@ -26,7 +26,7 @@
     <url>https://github.com/jbundle/wrapped</url>
     <connection>scm:git:https://github.com/jbundle/wrapped</connection>
     <developerConnection>scm:git:https://github.com/jbundle/wrapped</developerConnection>
-    <tag>HEAD</tag>
+    <tag>jbundle-util-osgi-wrapped-reactor-1.0.7</tag>
   </scm>
 
   <build>
