@@ -4,14 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <version>1.0.7</version>
+        <version>1.0.8-SNAPSHOT</version>
         <groupId>org.jbundle.util.osgi.wrapped</groupId>
         <artifactId>jbundle-util-osgi-external-reactor</artifactId>
     </parent>
 
     <!-- groupId>org.json</groupId -->
     <artifactId>derby</artifactId>
-    <version>10.14.2.0</version>
+    <version>10.14.2.1-SNAPSHOT</version>
     <packaging>bundle</packaging>
 
     <properties>
