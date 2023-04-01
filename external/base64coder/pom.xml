@@ -11,7 +11,7 @@
 
     <!-- groupId>org.json</groupId -->
     <artifactId>base64coder</artifactId>
-    <version>2010-13-19-SNAPSHOT</version>
+    <version>${base64coder-version}</version>
     <packaging>bundle</packaging>
 
     <properties>

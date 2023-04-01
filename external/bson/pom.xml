@@ -11,7 +11,7 @@
 
     <!-- groupId>org.json</groupId -->
     <artifactId>bson</artifactId>
-    <version>3.12.13-SNAPSHOT</version>
+    <version>${mongo-version}</version>
     <packaging>bundle</packaging>
 
     <properties>

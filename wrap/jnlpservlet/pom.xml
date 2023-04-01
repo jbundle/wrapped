@@ -11,7 +11,7 @@
 
     <!-- groupId>com.mchange</groupId -->
     <artifactId>webstart-jnlp-servlet</artifactId>
-    <version>1.0-beta-8-SNAPSHOT</version>
+    <version>${jnlp-servlet-version}</version>
     <packaging>bundle</packaging>
 
     <properties>

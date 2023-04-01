@@ -11,7 +11,7 @@
 
     <!-- groupId>org.json</groupId -->
     <artifactId>mongo-java-driver</artifactId>
-    <version>3.12.13-SNAPSHOT</version>
+    <version>${mongo-version}</version>
     <packaging>bundle</packaging>
 
     <properties>
